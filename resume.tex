@@ -1,116 +1,143 @@
 % Matt Adelman's Resume
 % Written in LaTeX for clarity and a challenge.
 \documentclass[11pt]{res} % default is 10 pt
-%\usepackage{helvetica} % uses helvetica postscript font 
+%\usepackage{helvetica} % uses helvetica postscript font
 %(download helvetica.sty)
-%\usepackage{newcent}   
+%\usepackage{newcent}
 \setlength{\textheight}{10in} % increase text height to fit resume on 1 page
 \newsectionwidth{0pt}  % So the text is not indented under section headings
 
 % For margins to be how I like them.
 \usepackage[margin=0.5in, paperwidth=8.5in, paperheight=11in]{geometry}
 
-\begin{document} 
+\begin{document}
 
 
 % I didn't like my name being in the center, so I changed the default.
 {\bf\Large Matthew Adelman}
 
-\address{27 Warner Street $\bullet$ Apt. \#2 $\bullet$ Somerville, MA 02144 \\ 
-        (201) 323-2719 $\bullet$ mxadelman@gmail.com $\bullet$ 
-        http://madelman.org}
+\address{27 Warner Street $\bullet$ Apt. \#2 $\bullet$ Somerville, MA 02144 \\
+        (201) 323-2719 $\bullet$ mxadelman@gmail.com}
 
 % Second address area to make the first one flush left
 \address{}
 
 \begin{resume}
 
-\section{EDUCATION}
- \noindent Wesleyan University, Middletown, CT \\
-{\it Bachelor of Arts}, May 2013 \\
-Majors: Computer Science and Mathematics, GPA: 3.60/4.00 \\
-{\bf Relevant Coursework:} Advanced Functional Data Structures, Advanced and 
-Experimental Algorithmics, Graduate Algebra, Algebraic Geometry, Mathematical
-Logic, and Design of Programming Languages
+\section{Computer Skills}
+GitHub: https://github.com/adelman\\
+Programming Languages: Java, SQL, Ruby, Python, SML, JavaScript.\\
+Considerable Experience: Unix, Git, AWS, Ruby on Rails, Pega, \LaTeX, GnuPlot,
+Mathematica, Photoshop.\\
+Basic Experience: HTML5, CSS3, jQuery
 
 \section{EXPERIENCE}
-{\bf Accenture}, Beverly, MA \hfill June 2013 - Present \\
-{\it Software Engineer} 
+{\bf Fiksu DSP}, Boston, MA\\
+{\it Team Lead} \hfill June 2015 - June 2017 \\
+{\it Software Engineer} \hfill February 2014 - June 2015\!
+
 \vspace{0.01in} % Make a bit of space before the items.
    \begin{itemize} \itemsep -2pt  % reduce space between items
-   \item Work with the Pega Business Process Management framework to develop 
+   \item Managed team of five engineers in the development of a completely new
+     client facing user interface.
+   \item Received significant positive feedback from team members, compared to
+     their experience working for others.
+   \item Maintained multiple Amazon Redshift clusters, responsible for ingesting
+     over 100 million events each day.
+   \item Expanded the real-time bidding system to process over one million
+     events per second, by integrating new exchanges and easing the construction
+     of new campaigns.
+   \item Built audience-processing infrastructure which
+     currently evaluates over three billion user profiles each hour.
+   \item Streamlined lookalike-processing for audiences.
+   \item Tuned bid-adjustment and budget-allocation systems for
+     optimization team to bid more precisely.
+   \item Led the implementation of a new Aerospike Cluster, saving over
+     \$200,000 annually.
+   \item Additional \$10,000 saved per month through AWS cost cutting measures.
+   \end{itemize}
+
+% How to say different positions
+% How to say different companies?
+% What can I say about big data, ingestion, moving to a different system
+
+
+{\bf Accenture}, Beverly, MA \hfill June 2013 - January 2014 \\
+{\it Software Engineer}
+\vspace{0.01in} % Make a bit of space before the items.
+   \begin{itemize} \itemsep -2pt  % reduce space between items
+   \item Worked with the Pega Business Process Management framework to develop
    large scale enterprise solutions,
-   specifically user interface.
-   \item Coordinate with other team members on how to best divide up work and
-   tackle a new project.
+   specifically user interfaces.
+   \item Built solutions for clients ranging in size from small start-ups to the
+     FBI and USDA.
+   \item Balanced the every day needs of consultants with the overall needs
+     of clients to move projects forward at the appropriate pace.
    \end{itemize}
 
 
-{\bf Wesleyan University Math / Computer Science Department}, Middletown, CT 
-\hfill Fall 2011 - May 2013 \\ 
+{\bf Wesleyan University Math / Computer Science Department}, Middletown, CT
+\hfill Fall 2011 - May 2013 \\
 {\it Course Assistant and Tutor} \\
 \vspace{-0.17in}
  \begin{itemize} \itemsep -2pt
    \item Hold bi-weekly tutoring sessions and grade problem sets for Computer
-   Science 1, Algorithms and Complexity, and Functional Data Structures.  
-   \item Hold weekly hours in the Math Workshop where anyone can come in with
-   math related questions.  
-   \end{itemize} 
+   Science 1, Algorithms and Complexity, and Functional Data Structures.
+   \end{itemize}
 
 \vspace{-0.05in} % Bring the sections closer together.
 
 
 
-\section{CAMPUS ACTIVITIES} 
-{\bf Alpha Delta Phi Society} Middletown, CT \hfill Fall 2009 - Present\\
-{\it Steward} \hfill Spring 2011 - Fall 2011\\
-\vspace{-0.17in}
- \begin{itemize} \itemsep -2pt
-   \item Managed the Star \& Crescent restaurant, a popular dining location on
-   campus.  
-   \item Oversaw payroll of 13 kitchen employees, including one professional 
-   chef.  
-   \item Maintained favorable supplier relationship for beneficial pricing 
-   terms.  
-   \item Listened to student demand to create desirable menus.
-   \end{itemize}
+%section{CAMPUS ACTIVITIES}
+%\bf Alpha Delta Phi Society} Middletown, CT \hfill Fall 2009 - Present\\
+%\it Steward} \hfill Spring 2011 - Fall 2011\\
+%vspace{-0.17in}
+%\begin{itemize} \itemsep -2pt
+%  \item Managed the Star \& Crescent restaurant, a popular dining location on
+%  campus.
+%  \item Oversaw payroll of 13 kitchen employees, including one professional
+%  chef.
+%  \item Maintained favorable supplier relationship for beneficial pricing
+%  terms.
+%  \item Listened to student demand to create desirable menus.
+%  \end{itemize}
 
-\vspace{-0.1in}
-   
-{\it President } \hfill Fall 2012\\
-\vspace{-0.17in}
- \begin{itemize} \itemsep -2pt
-   \item Facilitated weekly meetings among executive committee officers.
-   \item Compiled a bi-semesterly ``State of Society'' report for our Board of 
-   Trustees.
-   \item Fostered positive relations between the Society, the University, and 
-   the greater Middletown Community.
-   \end{itemize}
+%vspace{-0.1in}
+%
+%\it President } \hfill Fall 2012\\
+%vspace{-0.17in}
+%\begin{itemize} \itemsep -2pt
+%  \item Facilitated weekly meetings among executive committee officers.
+%  \item Compiled a bi-semesterly ``State of Society'' report for our Board of
+%  Trustees.
+%  \item Fostered positive relations between the Society, the University, and
+%  the greater Middletown Community.
+%  \end{itemize}
 
-\vspace{-0.1in}
-   
-{\it Critic } \hfill Spring 2012\\
-\vspace{-0.17in}
- \begin{itemize} \itemsep -2pt
-   \item Responsible for the emotional well-being of all members.
-   \item Mediating difficult discussions between members.
-   \item Held pledge education sessions for the semesters' pledge class.
-   \item Organized all pledge related events, including initiation.
-   \end{itemize}
+%vspace{-0.1in}
+%
+%\it Critic } \hfill Spring 2012\\
+%vspace{-0.17in}
+%\begin{itemize} \itemsep -2pt
+%  \item Responsible for the emotional well-being of all members.
+%  \item Mediating difficult discussions between members.
+%  \item Held pledge education sessions for the semesters' pledge class.
+%  \item Organized all pledge related events, including initiation.
+%  \end{itemize}
+
+\section{EDUCATION}
+ \noindent Wesleyan University, Middletown, CT \\
+{\it Bachelor of Arts}, May 2013 \\
+Majors: Computer Science and Mathematics, GPA: 3.60/4.00 \\
+{\bf Relevant Coursework:} Advanced Functional Data Structures, Advanced and
+Experimental Algorithmics, Graduate Algebra, Algebraic Geometry, Mathematical
+Logic, and Design of Programming Languages
 
 
- 
-\section{Computer Skills} 
-Programming Languages: Java (5 years), Python (4 years), SML (2 years),
-JavaScript (1 year), Ruby (1 year).\\
-Considerable Experience: Unix, Git, Ruby on Rails, Pega, \LaTeX, GnuPlot, 
-Mathematica, Photoshop, SuperCollider, TI-BASIC.\\
-Basic Experience: HTML5, CSS3, jQuery\\
-GitHub: https://github.com/adelman
-
-\section{Interests} 
+\section{Interests}
 Photography, SCUBA Diving, Travel, Fire Arts, Rubik's Cubes and other twisty
-puzzles, Robotics, and Taiko 
+puzzles, Robotics, and Taiko
 
 \end{resume}
 
